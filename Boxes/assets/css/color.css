@@ -1,0 +1,35 @@
+div.parent {
+    padding: 15px;
+    background-color: green;
+    text-align: center;
+}
+
+div.display {
+    margin: 20px;
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    display: inline-block;
+}
+
+div.shadow {
+    width: 250px;
+    height: 250px;
+    margin: 15px auto;
+    box-shadow: 3px 8px 4px -2px rgba(0, 0, 0, 0.5),
+    3px 8px 10px 5px rgba(0, 0, 0, 0.15);
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+div.shadow h2 {
+    text-align: center;
+    border-bottom: 1px solid #333;
+    padding-bottom: 15px;
+}
+
+div.shadow p {
+    text-align: center;
+    color: #888;
+}
